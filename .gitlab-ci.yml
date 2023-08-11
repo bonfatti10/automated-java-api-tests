@@ -1,0 +1,30 @@
+image: openjdk:21-ea-17-slim-buster
+
+stages:
+  - build
+  - lint
+  - teste
+
+build-job:
+  stage: build
+  script:
+    - mvn test
+    - mvn surefire-report:report-only
+    - allure serve target/allure-results
+  artifacts:
+    expire_in: 2 days
+    paths:
+      - target/site/
+
+lint-job:
+  stage: lint
+  script:
+    - echo "lint executando"
+  only:
+    variables: [ $TARGET == "e2e" ]
+
+teste-job:
+  stage: teste
+  script:
+    - echo "teste rodando"
+  only: [merge_request]
