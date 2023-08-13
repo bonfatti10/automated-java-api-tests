@@ -21,8 +21,8 @@ Ele deve ser usado como abordagem inicial, para a construção de testes automat
 
 Nesse projeto você verá as seguintes arquiteturas e design patterns:
 
-* [Pojo pattern](#pojo-pattern)
-* [Allure-reports](#allure-report)
+* [Pojo Pattern](#pojo-pattern)
+* [Allure-Reports](#allure-report)
 * [Lombok](#lombok)
 * [Jakson](#jakson)
   
