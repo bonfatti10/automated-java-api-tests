@@ -30,13 +30,13 @@ Nesse projeto você verá as seguintes arquiteturas e design patterns:
 Resumidamente:
 O padrão POJO (Plain Old Java Object) é uma abordagem de design em programação Java que enfatiza a simplicidade e a clareza do código. O objetivo do padrão POJO é criar classes simples e independentes de estruturas complexas ou frameworks, facilitando a manutenção, reutilização e teste do código. Em essência, um POJO é uma classe Java com as seguintes características
 
-###Allure Report
+### Allure Report
 Allure Report que é um framework que permite a geração de relatórios automáticos de teste
 
-###Lombok
+### Lombok
 O Lombok é uma biblioteca Java focada em produtividade e redução de código boilerplate
 
-###Jakson
+### Jakson
 Jackson é uma excelente biblioteca para lidar com a transformação de texto em código.
 
 ### Execução
