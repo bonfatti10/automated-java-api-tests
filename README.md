@@ -1,6 +1,8 @@
 # Framework de testes automatizados de APIs (Portifolio)
 
 **Esse projeto entrega, uma estrutura completa para automação para testes para APIs, usando os melhores frameworks e práticas.**
+Esse framework possui exemplos de testes que precisam ser autenticados, então usei algumas bibliotecas como lombok jakson para criar a class de autenticação.
+
 
 ## Linguagens e Frameworks utilizados
 
@@ -21,14 +23,21 @@ Nesse projeto você verá as seguintes arquiteturas e design patterns:
 
 * [Pojo pattern](#pojo-pattern)
 * [Allure-reports](#allure-report)
+* [Lombok](#lombok)
+* [Jakson](#jakson)
   
-### Pojo pattern
+### Pojo Pattern
 Resumidamente:
 O padrão POJO (Plain Old Java Object) é uma abordagem de design em programação Java que enfatiza a simplicidade e a clareza do código. O objetivo do padrão POJO é criar classes simples e independentes de estruturas complexas ou frameworks, facilitando a manutenção, reutilização e teste do código. Em essência, um POJO é uma classe Java com as seguintes características
 
 ###Allure Report
 Allure Report que é um framework que permite a geração de relatórios automáticos de teste
 
+###Lombok
+O Lombok é uma biblioteca Java focada em produtividade e redução de código boilerplate
+
+###Jakson
+Jackson é uma excelente biblioteca para lidar com a transformação de texto em código.
 
 ### Execução
 
